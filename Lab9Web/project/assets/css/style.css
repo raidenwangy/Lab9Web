@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #263238;
+}
+
+.container {
+  max-width: 960px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 6px;
+}
+
+header, footer {
+  padding: 16px;
+  background: #eaf2f8;
+  border-radius: 4px;
+}
+
+header h1 {
+  margin: 0 0 6px;
+}
+
+header p {
+  margin: 0;
+  color: #455a64;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #e0e6ed;
+}
+
+nav a {
+  color: #145a86;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+nav a:hover, nav a.active {
+  background: #145a86;
+  color: #fff;
+}
+
+main {
+  min-height: 260px;
+  padding: 20px 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+.card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+  border-radius: 4px;
+  margin: 14px 0;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #dce3ea;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #eaf2f8;
+}
+
+.btn {
+  display: inline-block;
+  background: #145a86;
+  color: #fff;
+  padding: 8px 14px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #0f4668;
+}
+
+.btn-secondary {
+  background: #607d8b;
+}
+
+.btn-small {
+  display: inline-block;
+  background: #145a86;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-danger {
+  background: #c62828;
+}
+
+.form-group {
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+
+.alert {
+  padding: 12px 14px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.alert-success {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 1px solid #a5d6a7;
+}
+
+.alert-error {
+  background: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+}
